@@ -51,7 +51,7 @@ export default function Home() {
       <section id="protocol" className="py-20 bg-gray-50 px-6 text-center">
         <h2 className="text-3xl font-bold mb-6">How BluSlide Works</h2>
         <p className="max-w-2xl mx-auto text-gray-600 mb-10">
-          At the heart is the DKMS Protocol — a dynamic system for kernel selection, scoped task routing, and teardown-driven memory control. It's how AI stops drifting and starts producing.
+          At the heart is the DKMS Protocol — a dynamic system for kernel selection, scoped task routing, and teardown-driven memory control. It&rsquo;s how AI stops drifting and starts producing.
         </p>
         <div className="w-full max-w-xl mx-auto h-64 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
           DKMS Visual Coming Soon
