@@ -1,70 +1,18 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      {/* HERO BLOCK */}
-      <section className="flex flex-col items-center justify-center text-center py-32 px-6">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Decision-grade AI for real operators.
-        </h1>
-        <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10">
-          BluSlide enforces scoped cognition and clean resets so your AI thinks like a high-performing executive—one role, one problem, one decision at a time.
-        </p>
-        <button className="bg-white text-black px-6 py-3 rounded-xl text-lg font-semibold hover:bg-gray-300 transition">
-          See Solve Mode
-        </button>
-      </section>
-
-      {/* SCOPED COGNITION BLOCK */}
-      <section className="bg-gray-950 py-24 px-6 text-center">
-        <h2 className="text-4xl font-bold mb-6">Scoped Cognition Changes Everything</h2>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-          Traditional LLMs blur roles, overfit to noise, and drift between contexts. BluSlide locks the scope. No leakage. No hallucination.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div className="bg-gray-800 p-6 rounded-xl">
-            <h3 className="text-xl font-semibold mb-2">Before BluSlide</h3>
-            <p className="text-gray-400">
-              Confused context. Reused prompts. Messy memory. LLM feels like an intern trying to sound smart.
-            </p>
-          </div>
-          <div className="bg-green-600 p-6 rounded-xl">
-            <h3 className="text-xl font-semibold mb-2">With BluSlide</h3>
-            <p className="text-white">
-              One role. One kernel. One problem. Solve Mode delivers scoped logic and clean execution.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* SOLVE MODE BLOCK */}
-      <section className="bg-gradient-to-b from-black to-gray-900 py-24 px-6 text-center">
-        <h2 className="text-4xl font-bold mb-6">Enter Solve Mode</h2>
-        <p className="text-gray-400 max-w-2xl mx-auto mb-12">
-          Your AI drops the noise. Loads only what matters. Solves. Then resets. That’s Solve Mode.
-        </p>
-        <button className="bg-transparent border border-white px-6 py-3 rounded-xl text-lg hover:bg-white hover:text-black transition">
-          Try a Live Demo
-        </button>
-      </section>
-
-      {/* WHY BLUSLIDE */}
-      <section className="bg-black py-24 px-6 text-center">
-        <h2 className="text-4xl font-bold mb-6">Why BluSlide Wins</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto text-left">
-          <div>
-            <h3 className="text-xl font-semibold mb-2">🧠 DKMS</h3>
-            <p className="text-gray-400">Dynamic Kernel Management System scopes every task. No drift. No bloat. Just precision cognition.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">🔁 Reset Logic</h3>
-            <p className="text-gray-400">Mirror logic enforces cognitive hygiene. Every solve ends with a reset. No context contamination.</p>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2">🪞 Scoped Personas</h3>
-            <p className="text-gray-400">AI behaves like a specialist, not a chatbot. Scoped kernels = surgical clarity at enterprise scale.</p>
-          </div>
-        </div>
-      </section>
+    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-4">
+      <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-center">
+        BluSlide
+      </h1>
+      <p className="text-xl text-center max-w-xl mb-10">
+        Decision-grade AI powered by scoped cognition. Welcome to the future of executive reasoning.
+      </p>
+      <a
+        href="https://bluslide.ai"
+        className="px-6 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition"
+      >
+        Visit Main Site
+      </a>
     </main>
   );
 }
