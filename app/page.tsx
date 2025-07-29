@@ -5,7 +5,7 @@ export default function Home() {
         <section className="text-center space-y-4">
           <h1 className="text-4xl font-bold">BluSlide Cognitive Framework</h1>
           <p className="text-lg">
-            Scoped cognition. Kernel management. Forget what you don't need. Remember what matters.
+            Scoped cognition. Kernel management. Forget what you don&#39;t need. Remember what matters.
           </p>
         </section>
 
