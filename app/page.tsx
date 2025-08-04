@@ -11,20 +11,27 @@ export default function Home() {
 
         <section className="bg-gray-100 p-6 rounded-xl shadow-md space-y-4">
           <h2 className="text-2xl font-semibold text-center">Contact Us</h2>
-          <form className="space-y-4">
+          <form
+            action="https://formspree.io/f/mrblyeek"
+            method="POST"
+            className="space-y-4"
+          >
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full p-3 border rounded-md"
               required
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="w-full p-3 border rounded-md"
               required
             />
             <textarea
+              name="message"
               placeholder="Your Message"
               className="w-full p-3 border rounded-md"
               rows={5}
